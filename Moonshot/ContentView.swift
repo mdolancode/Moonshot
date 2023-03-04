@@ -8,18 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    let layout = [
-        GridItem(.adaptive(minimum: 80, maximum: 120))
-    ]
+    let astronauts = Bundle.main.decode("astronauts.json")
     var body: some View {
-        // For horizontal grid use a scroll view that is horizontal. Have a lazy H grid and instead of columns use rows. 
-        ScrollView {
-            LazyVGrid(columns: layout) {
-                ForEach(0..<1000) {
-                    Text("Item \($0)")
-                }
-            }
-        }
+        Text("")
    
     }
 }
