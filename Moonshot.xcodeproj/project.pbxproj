@@ -15,6 +15,7 @@
 		C5F06E5729B3DA2F00492AAA /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F06E5529B3DA2F00492AAA /* missions.json */; };
 		C5F06E5929B3DB7300492AAA /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06E5829B3DB7300492AAA /* Astronaut.swift */; };
 		C5F06E5B29B3DBF600492AAA /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06E5A29B3DBF600492AAA /* Bundle-Decodable.swift */; };
+		C5F06E5D29B3FFC900492AAA /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F06E5C29B3FFC900492AAA /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C5F06E5529B3DA2F00492AAA /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		C5F06E5829B3DB7300492AAA /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		C5F06E5A29B3DBF600492AAA /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		C5F06E5C29B3FFC900492AAA /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C50579E429B2B147007DB40C /* MoonshotApp.swift */,
 				C50579E629B2B147007DB40C /* ContentView.swift */,
 				C5F06E5829B3DB7300492AAA /* Astronaut.swift */,
+				C5F06E5C29B3FFC900492AAA /* Mission.swift */,
 				C5F06E5A29B3DBF600492AAA /* Bundle-Decodable.swift */,
 				C5F06E5429B3DA2F00492AAA /* astronauts.json */,
 				C5F06E5529B3DA2F00492AAA /* missions.json */,
@@ -154,6 +157,7 @@
 				C5F06E5929B3DB7300492AAA /* Astronaut.swift in Sources */,
 				C50579E729B2B147007DB40C /* ContentView.swift in Sources */,
 				C50579E529B2B147007DB40C /* MoonshotApp.swift in Sources */,
+				C5F06E5D29B3FFC900492AAA /* Mission.swift in Sources */,
 				C5F06E5B29B3DBF600492AAA /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
