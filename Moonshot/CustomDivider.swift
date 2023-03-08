@@ -1,5 +1,5 @@
 //
-//  RectangleView.swift
+//  CustomDivider.swift
 //  Moonshot
 //
 //  Created by Matthew Dolan on 2023-03-07.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RectangleView: View {
+struct CustomDivider: View {
     var body: some View {
         Rectangle()
             .frame(height: 2)
@@ -16,8 +16,8 @@ struct RectangleView: View {
     }
 }
 
-struct RectangleView_Previews: PreviewProvider {
+struct CustomeDivider_Previews: PreviewProvider {
     static var previews: some View {
-        RectangleView()
+        CustomDivider()
     }
 }
