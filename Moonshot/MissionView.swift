@@ -63,7 +63,7 @@ struct MissionView: View {
                                                 Capsule()
                                                     .strokeBorder(.white, lineWidth: 1)
                                             )
-                                        
+
                                         VStack(alignment: .leading) {
                                             Text(crewMember.astronaut.name)
                                                 .foregroundColor(.white)
@@ -73,7 +73,7 @@ struct MissionView: View {
                                                 .foregroundColor(.secondary)
                                         }
                                     }
-                                    
+
                                     .padding(.horizontal)
                                 }
                             }
@@ -103,10 +103,10 @@ struct MissionView: View {
 
 struct MissionView_Previews: PreviewProvider {
     static let missions: [Mission] = Bundle.main.decode("missions.json")
-    static let astronaults: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    static let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     
     static var previews: some View {
-        MissionView(mission: missions[0], astronauts: astronaults)
+        MissionView(mission: missions[0], astronauts: astronauts)
             .preferredColorScheme(.dark)
     }
 }
